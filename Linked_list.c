@@ -17,7 +17,7 @@ void insert(int value){
     struct node *temp=(struct node*)malloc(sizeof(struct node));
     temp->data = value;
     temp->link = NULL;
-    if(head=NULL){
+    if(head==NULL){
         head= temp;
     }
     else{
